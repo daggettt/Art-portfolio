@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 0.12em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100vw;
+  padding: 25px;
+
+  font-weight: 500;
+  font-size: large;
+  letter-spacing: 0.4em;
+  font-style: italic;
+  word-wrap: break-word;
+  
+  
+}
+
+main {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  width: 10em;
+  height: 100vh;
+  padding: 20px;
+  padding-bottom: 30px;
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: lightgray;
+  
+}
+
+nav ul{
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.art {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+
+  background-color: antiquewhite;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+
+  background-color: lightblue;
+  color: blue;
+  height: auto;
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
