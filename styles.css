@@ -8,44 +8,34 @@
   letter-spacing: 0.12em;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 header {
-  width: 100vw;
-  padding: 25px;
-
+  width: auto;
   font-weight: 500;
   font-size: large;
   letter-spacing: 0.4em;
   font-style: italic;
-  word-wrap: break-word;
-  
-  
+  word-wrap: break-word; 
 }
 
 main {
-  width: 100vw;
-
   display: flex;
   flex-direction: row;
+  height: auto;
 }
 
 aside {
   width: 10em;
   height: 100vh;
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 50px 20px;
   float: left;
-
+  overflow: hidden;
+  
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 
   background-color: lightgray;
-  
 }
 
 nav ul{
@@ -62,6 +52,7 @@ nav ul{
 }
 
 .gallery {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -72,12 +63,12 @@ nav ul{
 footer {
   position: relative;
   bottom: 0;
-
-  background-color: lightblue;
-  color: blue;
+  
   height: auto;
-  width: 100vw;
   padding: 15px;
   display: flex;
   justify-content: center;
+
+  background-color: lightblue;
+  color: blue;
 }
