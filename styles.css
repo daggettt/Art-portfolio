@@ -10,11 +10,13 @@
 
 header {
   width: auto;
+  padding: 15px;
   font-weight: 500;
   font-size: large;
   letter-spacing: 0.4em;
   font-style: italic;
   word-wrap: break-word; 
+  text-align: center;
 }
 
 main {
